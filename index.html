@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Designer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300i,400,400i,600" rel="stylesheet">
+	<!-- //web-fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300i,400,400i,600" rel="stylesheet">
+	<link rel="shortcut icon" href="images/me.ico" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+	<!---728x90-->
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+							<a href="#gallery" class="scroll">My Work</a>
+							<a href="#services" class="scroll">Services</a>
+							<a href="#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1><a href="index.html">danishAnwar</a></h1>
+					<h2 class="w3ls-bnrtext">I am an <span>Computer Science </span> Engineer</h2>
+					<p class="w3ls-p">An innovative Software Developer with the passion for creativity</p>
+					<a href="#gallery" target="_blank" class="buy btn-wayra scroll">Explore my work</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300i,400,400i,600" rel="stylesheet">
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p>Hi, I am Danish, currently working as Software Engineer at Qualcomm. I completed my B.Tech in 2019 from NIT Durgapur. I have done B.Tech in Computer Science and Engineering(CSE). I have 3+ years of experience in Software Development(using C/C++, Django/Python) as well as Data Analysis(using python). I am a passionate web designer and a hardcore coder. Feel free to reach me for Hiring or Business proposals.
+					<br>
+					#JaiHind
+					<br>
+					<a href="pdf/DanishResumeUpdated.pdf" target="_blank">PFA my Resume</a>
+					<br>
+				</p>
+			</div>
+			<a href="#contact" class="wthree- about-link scroll">hire me</a>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
+				<span class="fa fa-trophy" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">awards</h4>
+				<h5>Student of The Year</h5>
+				<p>Awarder as the best student in the year 2013</p>
+				<h5>Mock Test Winner</h5>
+				<p>Won Inter District Parliement Mock contest in 2014</p>
+				<h5>premier developer award</h5>
+				<p>Best Web Designer among in an event conducted in college</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">education</h4>
+				<h5>B.Tech in Computer Science & Engineering</h5>
+				<p>From NIT Durgapur with CGPA 8.88</p>
+				<h5>High School</h5>
+				<p>Passed class 10 and 12 from Titagarh AGM High School which is recognised by W.B.B.S.E and W.B.C.H.S.E</p>
+				<h5>Udemy</h5>
+				<p>Completed web developer bootcamp course on udemy</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">experience</h4>
+				<h5>Soft Engineer @ Qualcomm</h5>
+				<p>From January 2020</p>
+				<h5>Project Engineer @ Wipro</h5>
+				<p>July 2019 - January 2020</p>
+				<h5>Team Leader in Academic Project</h5>
+				<p>December 2017</p>
+				<h5>Web Designer</h5>
+				<p>2016-present</p>
+				<h5>Web Applications</h5>
+				<p>2016-present<br>Build various web applications.</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!---728x90-->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">skills</h3>
+				<p class="paraDetail" style="color:#fcf;"><b>Programming : </b>When it comes to programming, I am proficient in C/C++ and Python. Most of my developments are based on Python and C++. For compiler designing I use Lex and Yacc<br><b>Development: </b>Most of my development work consist of below stacks.<br>Front-End : CSS3,HTML5,JS,Jquery , <br>Back-End : Django,NodeJs,Express,NPM</p>
+				<p>
+				    <a href="pdf/DanishResumeUpdated.pdf" target="_blank">PFA my resume</a>
+				</p>
+			</div>
+			<div class="col-md-7 skills-right">
+				<div class="vertical-skills  pull-right xs-center">
+					<ul class="list-inline">
+						<li>
+							<div class="skill" style="height:90%; background:#ff9d0d;"><span class="value">90%</span></div><span class="title" style="color: #ff9d0d;">HTMLCSS</span></li>
+						<li>
+							<div class="skill" style="height:90%; background:#03a9f4;"><span class="value">90%</span></div><span class="title" style="color: #03a9f4;">Python</span></li>
+						<li>
+							<div class="skill" style="height:95%; background:#b32eca;"><span class="value">95%</span></div><span class="title" style="color: #b32eca;">C/C++</span></li>
+						<li>
+							<div class="skill" style="height:90%; background:#009688;"><span class="value">90%</span></div><span class="title" style="color: #009688;">Django</span></li>
+						<li>
+							<div class="skill" style="height:85%; background:#6361d3;"><span class="value">85%</span></div><span class="title" style="color: #6361d3;">NodeJS</span></li>
+						<li>
+							<div class="skill" style="height:75%; background:#6061f0;"><span class="value">75%</span></div><span class="title" style="color: #6061f0;">Lex/Yacc</span></li>
+						<li>
+							<div class="skill" style="height:80%; background:#777;"><span class="value">80%</span></div><span class="title" style="color: #777;">LatEx</span></li>
+
+					</ul>
+				</div>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">MY work</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home-main" aria-expanded="true">Show all</a></li>
+					<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Back-end</a></li>
+					<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Front-end</a></li>
+					<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">PDFs</a></li>
+
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g1.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g1.png" class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Movie Search App</h5>
+									<p><a href="http://moviesearch.ml/" target="_blank">Click for demo of Movie Search WebApp</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/moviesearch" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g2.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g2.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Color Game</h5>
+									<p><a href="https://danishanwar.github.io/ColorGameProject" target="_blank">Click for demo of RGB Color Game</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/ColorGameProject" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g3.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g3.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Weather Search App</h5>
+									<p><a href="WAPP/index.html" target="_blank">Click for demo of Weather of your location</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/WAPP" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/interview-exp.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/interview-exp.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Interview Experience</h5>
+									<p><a href="http://interview-experience.tk/" target="_blank">Click for demo of Interview Experience Generator</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/interview-exp-generator" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g5.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g5.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>My Website</h5>
+									<p><a href="index.html" target="_blank">Click for Demo of my website</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/me" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/dantech.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/dantech.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Dan-Tech</h5>
+									<p><a href="https://danishanwar431.000webhostapp.com/" target="_blank">A django based social networking app</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/dantech" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/dinyurl.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/dinyurl.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Diny URL</h5>
+									<p><a href="https://dinyurl.herokuapp.com/" target="_blank">Click for Demo of DinyURL</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/dinyurl" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/dan-dict.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/dan-dict.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Dan-Dict</h5>
+									<p><a href="https://danishanwar431.000webhostapp.com/blog.html" target="_blank">Click for Demo of Dan-Dict</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/interview-exp-generator" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/dantech.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/dantech.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Dan-Tech</h5>
+									<p><a href="https://danishanwar431.000webhostapp.com/" target="_blank">Click for Demo of Dan-Tech</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/dantech" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/dinyurl.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/dinyurl.png" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Diny URL</h5>
+									<p><a href="https://dinyurl.herokuapp.com/" target="_blank">Click for Demo of DinyURL</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/dinyurl" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/dan-dict.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/dan-dict.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Dan-Dict</h5>
+									<p><a href="https://danishanwar431.000webhostapp.com/blog.html" target="_blank">Click for Demo of Dan-Dict</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/interview-exp-generator" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g1.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g1.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Movie Search App</h5>
+									<p><a href="http://moviesearch.ml/" target="_blank">Click for demo of my Movie Search WebApp</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/moviesearch" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g2.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g2.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Color Game</h5>
+									<p><a href="https://danishanwar.github.io/ColorGameProject" target="_blank">Click for demo of RGB Color Game</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/ColorGameProject" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g3.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g3.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Weather Search App</h5>
+									<p><a href="WAPP/index.html" target="_blank">Click for demo of Weather of your location</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/WAPP" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/g5.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/g5.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>My Website</h5>
+									<p><a href="index.html" target="_blank">Click for Demo of my website</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/me" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+						<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/interview-exp.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/interview-exp.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Interview Experience</h5>
+									<p><a href="http://interview-experience.tk/" target="_blank">Click for demo of Interview Experience Generator</a></p>
+									<p>Source Code : <a href="https://github.com/danishanwar/interview-exp-generator" target="_blank"> Github</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/resume.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/resume.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>My Resume</h5>
+									<p><a href="pdf/DanishResumeUpdated.pdf" target="_blank">My resume</a></p>
+									<p>Source Code : <a href="pdf/DanishResumeUpdated.pdf" target="_blank"> Latex</a></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/adornment.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/adornment.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Adornment of C</h5>
+									<p><a href="AdornmentOfCProject/AdornmentOfC.pdf" target="_blank">Adornment of C Project Paper</a></p>
+									<p>Project Code : <a href="AdornmentOfCProject" target="_blank"> Latex</a></p>
+								</div>
+							</div>
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								
+								
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+	</div>
+	<!-- //menu -->
+	<!-- services -->
+	<div class="w3ls-section services" id="services">
+		<div class="container">
+			<h3 class="agileits-title text-center">services</h3>
+			<div class="services-w3ls-row agileits-w3layouts service1 text-center">
+				<h5>web design</h5>
+				<p>Developing a complete responsive website for day to day usage and business purpose. Interactive and user friendly.</p>
+				<div class="s-top">
+					<span class="fa fa-laptop" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts middlegrid-w3ls">
+				<div class="col-md-4 services-grid agileits-w3layouts service2">
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>Front End</h5>
+						<p>Developing Front End structure of website using tools like HTML,CSS,JavaScript,jQuery.</p>
+					</div>
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-caret-square-o-up" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid img-agileits">
+					<img src="images/services.jpg" class="img-responsive" alt="" />
+				</div>
+				<div class="col-md-4 services-grid agileits-w3layouts service3">
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-grav" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>Back End</h5>
+						<p>Developing Back End structure of website to manually control website and manage database using tools like NodeJs,Express,MySQL,MongoDb,Django.</p>																	
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts service4">
+				<div class="s-top">
+					<span class="fa fa-adjust" aria-hidden="true"></span>
+				</div>
+				<h5>UI Designing</h5>
+				<p>Design complete UI for a system using basic required tools.</p>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!---728x90-->
+	<!-- contact -->
+	<div class="contact-w3-agileits w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="agileits-title cont-w3l">Feel free to contact me</h3>
+			<div class="contact-main-w3ls">
+				<div class="col-md-6  contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Mail me</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="mailto:danish.anwar431@gmail.com">danish.anwar431@gmail.com</a><br>
+							<a href="mailto:iamdanish2301@gmail.com">iamdanish2301@gmail.com</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>+91 6290244960</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>S.S.Path, Bansbagan<br> Titagarh, Kolkata-700119<br> INDIA.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Follow me</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li><a href="https://www.facebook.com/iammda23" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.twitter.com/immda23" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/iammda23" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://plus.google.com/u/0/113791814733150423929" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://github.com/danishanwar" target="_blank"><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="contact-main">
+					<div class="col-md-6 agileits-main-right">
+						<form action="mailto:danish.anwar431@gmail.com" target="_blank" method="post" class="agile_form">
+							<label class="header">Name</label>
+							<div class="icon1 w3ls-name1">
+								<input placeholder=" " name="first name" type="text" required="">
+							</div>
+							<div class="icon2">
+								<label class="header">Email</label>
+								<input placeholder=" " name="Email" type="email" required="">
+							</div>
+							<label class="header">your message</label>
+							<textarea class="w3l_summary" required=""></textarea>
+							<input type="submit" value="SEND">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<div class="agileits_w3layouts-footer">
+		<p>© 2017 Designer. All rights reserved | Design by <a href="https://github.com/danishanwar"> Md Danish Anwar.</a></p>
+	</div>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
